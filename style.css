@@ -16,15 +16,11 @@
 
   /* ## Gradients */
 
-  --gradient-container: linear-gradient(
-    hsl(252, 100%, 67%),
-    hsl(241, 81%, 54%)
-  );
+  --gradient-container: linear-gradient(hsl(252, 100%, 67%),
+      hsl(241, 81%, 54%));
 
-  --gradient-circle: linear-gradient(
-    hsla(256, 72%, 46%, 1),
-    hsla(241, 72%, 46%, 0)
-  );
+  --gradient-circle: linear-gradient(hsla(256, 72%, 46%, 1),
+      hsla(241, 72%, 46%, 0));
 
   /* ### Neutral */
 
@@ -88,6 +84,7 @@ h2 {
 h3 {
   font-size: 2rem;
 }
+
 h4 {
   font-size: 2rem;
   color: var(--White);
@@ -222,24 +219,31 @@ p {
 .middle-container:nth-child(1) {
   background-color: var(--Light-red-bg);
 }
+
 .middle-container:nth-child(1) .test-unit {
   color: var(--Light-red);
 }
+
 .middle-container:nth-child(2) {
   background-color: var(--Orangey-yellow-bg);
 }
+
 .middle-container:nth-child(2) .test-unit {
   color: var(--Orangey-yellow);
 }
+
 .middle-container:nth-child(3) {
   background-color: var(--Green-teal-bg);
 }
+
 .middle-container:nth-child(3) .test-unit {
   color: var(--Green-teal);
 }
+
 .middle-container:nth-child(4) {
   background-color: var(--Cobalt-blue-bg);
 }
+
 .middle-container:nth-child(4) .test-unit {
   color: var(--Cobalt-blue);
 }
@@ -271,24 +275,29 @@ button:hover {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
 /* ----------------------Media------------------ */
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 700px) {
   section {
     align-items: start;
   }
+
   .container {
     grid-template-columns: 1fr;
+    width: 100%;
   }
+
   .total-container {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     gap: 1rem;
   }
+
   .summary-container {
     padding: 1.75rem;
   }
